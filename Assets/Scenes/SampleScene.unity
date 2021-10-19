@@ -489,8 +489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   url: http://mychicken.site/include/api/autorize.php
-  message: {fileID: 71939296}
-  user: {fileID: 0}
+  Message: {fileID: 71939296}
   loginFromUser: {fileID: 671424940}
   passwordFromUser: {fileID: 1234374485}
   EnterLogin: {fileID: 208139262}

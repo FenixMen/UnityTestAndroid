@@ -2,28 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
 
 public class FirstPage : MonoBehaviour
 {
-    public static Text user;
-    public static Text userId;
-    public static Text message;
 
-    [System.Serializable]
-    public struct PostStruct
-    {
-        public string message;
-        public string user;
-        public string userId;
-    }
+    public Text user;
+    public Text userId;
 
-
+   
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        user.text = SessionDate.user;
+        userId.text = SessionDate.userId;
     }
 
     // Update is called once per frame
